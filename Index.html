@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="Style.css" />
+</head>
+
+<body>
+    <div class="main">
+        <div class="title">
+            <h3>Weather App</h3>
+        </div>
+        <div class="inpBox">
+            <input id="inpValue" placeholder="Enter city name" required/>
+        </div>
+        <div class="btn-sec">
+            <button id="locationBtn">Search Or Get Device Location</button>
+        </div>
+    </div>
+
+    <div class="location-not-found">
+        <h1>Sorry, Location not found!!!</h1>
+        <img src="./Images/404.png" alt="404 Error">
+    </div>
+
+    <div class="content">
+        <div class="title">
+            <button id="backBtn"><img src="./Images/back.svg" /></button>
+            <h3>Weather App</h3>
+        </div>
+        <div class="weather-img">
+            <img class="climateData" src="" />
+        </div>
+        <div class="weather">
+            <h1 id="celciusData">0</h1>
+            <p id="cloudsData">brokenc clouds</p>
+            <div class="location">
+                <img src="./Images/location.svg" />
+                <p id="locationData">ahmedabad, maninagar</p>
+            </div>
+        </div>
+        <div class="measurement">
+            <div class="feels">
+                <img src="./Images/wind.svg" />
+                <div class="wind-speed">
+                    <p id="windData">0</p>
+                    <p>Wind Speed</p>
+                </div>
+            </div>
+            <div class="feels">
+                <img src="./Images/humidity.svg" />
+                <div class="celcius">
+                    <p id="humidityData">85</p>
+                    <p>Humidity</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="Script.js"></script>
+</html>
