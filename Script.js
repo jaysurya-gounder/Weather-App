@@ -1,4 +1,4 @@
-const api_key = "adf4e79d07a01a12ecf91a55558cdc70";
+const api_key = "";
 const inputBox = document.querySelector('#inpValue');
 const locationBtn = document.getElementById('locationBtn');
 const backBtn = document.getElementById('backBtn');
